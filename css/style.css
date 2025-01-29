@@ -498,10 +498,29 @@ div.slideouticons.horizontal input:checked ~ div.iconswrapper ul li{
     color: #000 !important;
 }
 
+.bg-\[length\:110\%_115\%\],.bg-\[length\:110\%_105\%\] ,.md\:w-\[32\%\].w-full.h-\[370px\].hidden.md\:block.bg-\[url\(\.\/img\/services\.png\)\].bg-\[length\:110\%_105\%\].p-5.rounded-lg.services-box {
+    background-size: 100% 100% !important;
+}
 @media screen and (max-width:575px){
     .section-title .main-title {
       font-size: 32px;
     }
+    .elementor-widget-wrap.elementor-element-populated {
+        justify-content: center !important;
+        margin-top: 15px;
+    }
+    .w-full.h-\[550px\].block.md\:hidden.bg-\[url\(\.\/img\/services\.png\)\].bg-\[length\:110\%_105\%\].p-5.rounded-lg.services-box {
+        background-repeat: no-repeat;
+        background-size: 100% 100% !important;
+        height: fit-content;
+     
+    }
+    .bg-\[length\:110\%_115\%\],.bg-\[length\:110\%_105\%\] ,.md\:w-\[32\%\].w-full.h-\[370px\].hidden.md\:block.bg-\[url\(\.\/img\/services\.png\)\].bg-\[length\:110\%_105\%\].p-5.rounded-lg.services-box {
+        background-size: 100% 100% !important;
+        min-height: 280px;
+    }
+    
+    
 }
 
 
