@@ -493,8 +493,8 @@ div.slideouticons.horizontal input:checked ~ div.iconswrapper ul li{
 }
 
 .elementor-widget-container li p strong,.elementor-widget-container li li strong{
-    font-size: 24px;
-    font-size: 500 !important;
+    font-size: 22px;
+    font-weight: 600 !important;
     color: #000 !important;
 }
 
