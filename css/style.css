@@ -281,7 +281,7 @@ nav {
 .text_iconPlus {
   position: relative;
   top: 10px;
-  right: 6px;
+  right: 0px;
   color: #000000;
   font-size: 16px;
   font-weight: 700;
@@ -304,6 +304,10 @@ div.slideouticons {
   right: 60px;
   bottom: 100px;
   margin-top: -160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 div.slideouticons input {
@@ -311,6 +315,7 @@ div.slideouticons input {
 }
 
 div.slideouticons label.mainlabel {
+  border: 2px solid #fff;
   /* menu anchor icon style */
   position: relative;
   display: -webkit-box;
@@ -334,6 +339,7 @@ div.slideouticons label.mainlabel {
   z-index: 100000;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+
 }
 
 div.slideouticons div.iconswrapper {
@@ -353,7 +359,7 @@ div.slideouticons div.iconswrapper {
 
 div.slideouticons div.iconswrapper ul {
   position: absolute;
-  /* right: 0px; */
+  right: -22px;
   bottom: 60px;
   list-style: none;
   margin: 0;
@@ -538,7 +544,18 @@ html {
     height: 100px;
     padding-inline: 15px;
 }
-
+.updatedTextAlign{
+  text-align: justify;
+}
+.accordion-body{
+  text-align: justify;
+}
+@media screen and (max-width:767px){
+  .elementor-9583 .elementor-element.elementor-element-470b03d img {
+    width: 100%;
+    border-radius: 12px 12px 12px 12px;
+}
+}
 @media screen and (max-width: 991px) {
   .startsSubDivs {
     text-align: center !important;
@@ -554,4 +571,12 @@ html {
     height: 80px;
     width: 250px;
   }
+  div.slideouticons {
+    position: fixed;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    z-index: 1000;
+    right: 30px;
+    bottom: 70px;
+}
 }
